@@ -1,0 +1,97 @@
+@media screen and (max-width: 768px) {
+  body{
+    width: 100%;
+    margin: auto;
+    background-image: url(resource/bos\ coffee.jpg);
+    background-size: auto;
+}
+
+.logo-container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.form-container {
+  width: 50%;
+  margin: auto;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: white;
+  padding: 10px;
+  align-items: center;
+}
+  
+form {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+label {
+  margin-top: 3px; /* Add some spacing between labels */
+}
+
+/* Wrap radio button and label in a container for styling */
+.radio-container {
+  display: flex;
+  align-items: center;
+}
+
+.branch-container {
+  display: flex;
+  flex-direction: column;
+}
+}
+
+@media screen and (min-width: 769px) {
+  body{
+    width: 100%;
+    margin: auto;
+    background-image: url(resource/bos\ coffee.jpg);
+    background-size: cover;
+}
+
+.logo-container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.form-container {
+  width: 50%;
+  margin: auto;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: white;
+  padding: 10px;
+  align-items: center;
+}
+  
+form {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+label {
+  margin-top: 3px; /* Add some spacing between labels */
+}
+
+/* Wrap radio button and label in a container for styling */
+.radio-container {
+  display: flex;
+  align-items: center;
+}
+
+.branch-container {
+  display: flex;
+  flex-direction: column;
+}
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="logo-container">
+    <img src="resource/bos_coffee_logo-removebg-preview.png" alt="" style="max-width: 100%; height: auto;">
+  </div>
+  <div class="form-container">
+    <div class="form-title" style="text-align: center;">Feedback Survey</div>
+    <form>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" required>
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" required>
+      <div class="radio-container">
+        <input type="radio" id="gender">
+        <label for="gender" id="gendersel">Male</label><br>
+      </div>
+      <div class="radio-container">
+        <input type="radio" id="gender">
+        <label for="gender" id="gendersel">Female</label><br>
+      </div>
+      <div class="branch-container">
+        <label>Select Branch</label>
+        <input list="branches" name="branch">
+        <datalist id="branches">
+          <option value="Bo's Coffee Mangaldan"></option>
+          <option value="Bo's Coffee Mangaldan"></option>
+          <option value="Bo's Coffee Mangaldan"></option>
+          <option value="Bo's Coffee Mangaldan"></option>
+          <option value="Bo's Coffee Mangaldan"></option>
+        </datalist>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
