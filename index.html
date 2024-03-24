@@ -13,10 +13,8 @@
   <div class="form-container">
     <div class="form-title" style="text-align: center;">Feedback Survey</div>
     <form>
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" required>
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" required>
+      <label for="fname">Name (optional)</label>
+      <input type="text" id="fname">
       <div class="radio-container">
         <input type="radio" id="gender">
         <label for="gender" id="gendersel">Male</label><br>
@@ -30,11 +28,23 @@
         <input list="branches" name="branch">
         <datalist id="branches">
           <option value="Bo's Coffee Mangaldan"></option>
-          <option value="Bo's Coffee Mangaldan"></option>
-          <option value="Bo's Coffee Mangaldan"></option>
-          <option value="Bo's Coffee Mangaldan"></option>
-          <option value="Bo's Coffee Mangaldan"></option>
+          <option value="Bo's Coffee Calasiao"></option>
+          <option value="Bo's Coffee Malasiqui"></option>
+          <option value="Bo's Coffee San Carlos"></option>
+          <option value="Bo's Coffee Eastwood"></option>
+          <option value="Bo's Coffee Manaoag"></option>
+          <option value="Bo's Coffee Urdaneta"></option>
+          <option value="Bo's Coffee Nueva Ecija"></option>
         </datalist>
+      </div>
+      <label for="question">Is the area clean?</label>
+      <div class="radio-container">
+        <input type="radio" id="yes">
+        <label for="question" id="yes">Yes</label><br>
+      </div>
+      <div class="radio-container">
+        <input type="radio" id="no">
+        <label for="question" id="no">No</label><br>
       </div>
     </form>
   </div>
