@@ -11,21 +11,22 @@
     <img src="resource/bos_coffee_logo-removebg-preview.png" alt="" style="max-width: 100%; height: auto;">
   </div>
   <div class="form-container">
-    <div class="form-title" style="text-align: center;">Feedback Survey</div>
+    <div class="form-title" style="text-align: center; font-size: 20px">Customer Feedback</div>
     <form>
       <label for="fname">Name (optional)</label>
       <input type="text" id="fname">
+      <label for="gender">Select Gender</label>
       <div class="radio-container">
-        <input type="radio" id="gender">
+        <input type="radio" id="gender" name="genAnswer">
         <label for="gender" id="gendersel">Male</label><br>
       </div>
       <div class="radio-container">
-        <input type="radio" id="gender">
+        <input type="radio" id="gender" name="genAnswer">
         <label for="gender" id="gendersel">Female</label><br>
       </div>
       <div class="branch-container">
         <label>Select Branch</label>
-        <input list="branches" name="branch">
+        <input list="branches" name="branch" required>
         <datalist id="branches">
           <option value="Bo's Coffee Mangaldan"></option>
           <option value="Bo's Coffee Calasiao"></option>
@@ -37,13 +38,13 @@
           <option value="Bo's Coffee Nueva Ecija"></option>
         </datalist>
       </div>
-      <label for="question">Is the area clean?</label>
+      <label for="question">1. Is the area clean?</label>
       <div class="radio-container">
-        <input type="radio" id="yes">
+        <input type="radio" id="yes" name="q1Answer">
         <label for="question" id="yes">Yes</label><br>
       </div>
       <div class="radio-container">
-        <input type="radio" id="no">
+        <input type="radio" id="no" name="q1Answer">
         <label for="question" id="no">No</label><br>
       </div>
     </form>
