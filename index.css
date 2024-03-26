@@ -2,8 +2,10 @@
   body{
     width: 100%;
     margin: auto;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
     background-image: url(resource/bos\ coffee.jpg);
-    background-size: auto;
 }
 
 .logo-container {
@@ -53,8 +55,10 @@ label {
   body{
     width: 100%;
     margin: auto;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
     background-image: url(resource/bos\ coffee.jpg);
-    background-size: cover;
 }
 
 .logo-container {
